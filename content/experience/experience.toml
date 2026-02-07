@@ -1,0 +1,23 @@
+[[collection]]
+type = "card"
+icon = "ma_symbol.svg"
+title = "Mastercard"
+subtitle = "Software Engineer II"
+content = "TODO"
+date = "2024-present"
+
+[[collection]]
+type = "card"
+icon = "ma_symbol.svg"
+title = "Mastercard"
+subtitle = "Software Engineer Intern"
+content = "TODO"
+date = "2024-present"
+
+[[collection]]
+type = "card"
+icon = "leonardo_symbol.png"
+title = "Leonardo"
+subtitle = "Software Engineer Intern"
+content = "TODO"
+date = "2024-present"
