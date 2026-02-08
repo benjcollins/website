@@ -32,4 +32,4 @@ jobs:
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan -H vps-b9ca7ac1.vps.ovh.net >> ~/.ssh/known_hosts
-        rsync -avz --delete ./public fedora@vps-b9ca7ac1.vps.ovh.net:/var/www/html/
+        rsync -avz --delete ./public/ fedora@vps-b9ca7ac1.vps.ovh.net:/var/www/html/
