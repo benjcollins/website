@@ -1,4 +1,4 @@
-base_url = "https://vps-b9ca7ac1.vps.ovh.net/"
+base_url = "https://bencollins.ovh/"
 title = "Ben Collins"
 description = "Developer profile website for Ben Collins"
 default_language = "en"
@@ -30,9 +30,9 @@ anchors = "on"
 
 [extra]
 sections = [
-  { name = "projects", path = "/projects", is_external = false },
   { name = "experience", path = "/experience", is_external = false },
   { name = "education", path = "/education", is_external = false },
+  { name = "personal projects", path = "/projects", is_external = false },
 ]
 blog_section_path = "/posts"
 

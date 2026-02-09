@@ -1,12 +1,11 @@
 +++
 template = "prose.html"
-title = "Projects"
-description = "A collection of projects I have worked on."
+title = "Personal Projects"
 
 [extra]
 lang = "en"
 reaction = false
-title = "Projects"
+title = "Personal Projects"
 subtitle = "A collection of projects I have worked on."
 +++
 
