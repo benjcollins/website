@@ -1,6 +1,6 @@
 base_url = "https://vps-b9ca7ac1.vps.ovh.net/"
-title = "Benjamin Collins Dev"
-description = "Developer profile website for Benjamin Collins"
+title = "Ben Collins"
+description = "Developer profile website for Ben Collins"
 default_language = "en"
 theme = "serene"
 output_dir = "public"

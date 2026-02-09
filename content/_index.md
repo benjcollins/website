@@ -6,9 +6,9 @@ lang = 'en'
 
 footer = false
 
-name = "Benjamin Collins"
+name = "Ben Collins"
 bio = "Software Engineer"
-avatar = "profile.jpg"
+avatar = "/profile.jpg"
 links = [
     { name = "GitHub", icon = "github", url = "https://github.com/<your-username>" },
     { name = "Email", icon = "email", url = "mailto:<your-email-address>" },

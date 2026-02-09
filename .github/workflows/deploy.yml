@@ -10,26 +10,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-      with:
-        submodules: recursive
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
 
-    - name: Install Zola
-      uses: taiki-e/install-action@v2
-      with:
-        tool: zola@0.22.1
+      - name: Install Zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.22.1
 
-    - name: Build files
-      run: |
-        zola build
+      - name: Build files
+        run: |
+          zola build
 
-    - name: Copy files to VPS
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-      run: |
-        mkdir -p ~/.ssh
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan -H vps-b9ca7ac1.vps.ovh.net >> ~/.ssh/known_hosts
-        rsync -avz --delete ./public/ fedora@vps-b9ca7ac1.vps.ovh.net:/var/www/html/
+      - name: Copy files to VPS
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H vps-b9ca7ac1.vps.ovh.net >> ~/.ssh/known_hosts
+          rsync -avz --delete ./public/ fedora@vps-b9ca7ac1.vps.ovh.net:/var/www/html/
