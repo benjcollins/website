@@ -2,22 +2,46 @@
 type = "card"
 icon = "/ma_symbol.svg"
 title = "Mastercard"
-subtitle = "Software Engineer II"
-content = "TODO"
-date = "2024-present"
+subtitle = "Software Engineer"
+date = "Sep 2024 - Present"
+content = """
+- (1st rotation) Backend engineering for a real-time payment processing system built with Java Spring Boot.
+- Designed and implemented REST APIs to decouple services from a shared database, enabling independent deployment and improving service isolation.
+- (2nd rotation) DevOps team that owned the stage environments for a production payment processor.
+- Automated and maintained stage environments using Chef; monitored and diagnosed release issues using Dynatrace and Splunk to ensure performance targets were met.
+"""
+
+[[collection]]
+type = "card"
+icon = "/rhul_symbol.jpeg"
+title = "Royal Holloway, University of London"
+subtitle = "Teaching Assistant"
+date = "Sep 2023 - May 2024"
+content = """
+- Mentored \\~40 students weekly in algorithms/data structures labs.
+- Provided debugging support and conceptual explanations for core CS modules.
+- Assisted in marking coursework.
+"""
 
 [[collection]]
 type = "card"
 icon = "/ma_symbol.svg"
 title = "Mastercard"
-subtitle = "Software Engineer Intern"
-content = "TODO"
-date = "2024-present"
+subtitle = "Software Engineer (Intern)"
+date = "Jun 2023 - Sep 2023"
+content = """
+- Built a retrieval-augmented generation (RAG) system using Llama to answer engineers' queries over internal documentation.
+- Implemented local embedding and retrieval pipeline to enable secure on-device inference.
+"""
 
 [[collection]]
 type = "card"
 icon = "/leonardo_symbol.png"
 title = "Leonardo"
-subtitle = "Software Engineer Intern"
-content = "TODO"
-date = "2024-present"
+subtitle = "Software Engineer (Summer Placement)"
+date = "Jul 2022 - Aug 2022"
+content = """
+- Developed components of a radio-frequency interference detection and classification system operating across 24-40 GHz.
+- A custom antenna sent a signal to an XMicrowave kit that was configured over an API to down convert a 24-40 GHz signal into the 1-5 GHz range.
+- The signal was processed by a Software Defined Radio that processed the signal using the onboard FPGA and sent measurements and classifications to the controller.
+"""

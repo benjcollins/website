@@ -1,9 +1,12 @@
 [[collection]]
 type = "card"
 title = "Go Generics Survey"
+date = "Jul 2024 - Sep 2024"
 link = "https://github.com/julien-lange/go-generics-survey"
 content = """
-Generics were introduced in Go 1.18. TODO
+- Wrote a tool that used the official Go parser to count occurrences of generic constructs in Go projects.
+- This was used to measure the adoption of generic features in open source Go projects over time.
+- Generated graphs for use in a paper on measuring the impact of generics on the Go programming language.
 """
 tags = ["golang", "python"]
 
@@ -11,21 +14,21 @@ tags = ["golang", "python"]
 type = "card"
 title = "Open Bot Brain"
 date = "Jul 2023 - Sep 2023"
-link = ""
+link = "https://www.openbotbrain.org"
 content = """
-- Built and tested firmware for a custom board with an Arm microcontroller in Rust.
-- Wrote drivers for various different sensors and controllers including a combined gyroscope, accelerometer and magnetometer.
-- Worked on a prototype for a protocol description language to generate well typed APIs for protocols to facilitate communication between the microcontroller and a Raspberry Pi over a UART bus.
+- Built and tested firmware for a custom board with an Arm micro-controller in Rust.
+- Wrote drivers for different sensors and controllers including a combined gyroscope, accelerometer and magnetometer.
+- Designed a code generation tool that consumed a protocol description language and generated well-typed stateful APIs to communicate between the micro-controller and a Raspberry Pi over a UART bus.
 """
-tags = ["embedded software", "rust", "session types"]
+tags = ["embedded", "rust", "session types"]
 
 [[collection]]
 type = "card"
 title = "Certifiably Correct Regular Expressions"
 date = "Jul 2022 - Sep 2022"
+link = "https://github.com/PaPC-RHUL/regexp"
 content = """
-- Successfully completed an undergraduate research project on Certifiably Correct Regular Expressions.
-- Used the Verified Software Toolchain and Rocq to prove that a regular expression implementation in C was correct.
-- Produced a report detailing my project and the experience I’ve gained using the VST.
+- Built a regular expression parser and matcher in C.
+- Used the Verified Software Toolchain and Rocq to prove the implementation was consistent with the semantics of regular expressions.
 """
 tags = ["proof theory", "c", "rocq"]

@@ -10,6 +10,6 @@ title = "Education"
 
 {{ collection(file="education.toml") }}
 
-Below are some paid research projects I completed while at University. 
+Here are a collection of paid research projects I completed over the summer while at University.
 
 {{ collection(file="projects.toml") }}

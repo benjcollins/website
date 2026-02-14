@@ -1,0 +1,20 @@
+[[collection]]
+type = "card"
+title = "Software rasterizer"
+link = "https://github.com/benjcollins/software-rasterizer"
+content = "A software rasterizer written in Rust with support for rendering textured OBJ 3D object files in real-time."
+tags = ["rust", "3d graphics"]
+
+[[collection]]
+type = "card"
+title = "LMCC Compiler"
+link = "https://github.com/benjcollins/lmcc"
+content = "A compiler for a toy programming language to the assembly used in the Little Man Computer simulator written in Go."
+tags = ["go", "machine code", "compiler"]
+
+[[collection]]
+type = "card"
+title = "Lite XL Terminal Plugin"
+link = "https://github.com/benjcollins/lite-xl-terminal"
+content = "Interactive terminal plugin for the Lite XL code editor written in Lua."
+tags = ["lua", "terminal", "plugin"]

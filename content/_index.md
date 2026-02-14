@@ -16,4 +16,4 @@ links = [
 ]
 +++
 
-This is placeholder text.
+Hello, my name is Ben and I've been interested in all things to do with technology since I was young. I have created this website to share a bit about myself and my experiences. Hopefully in the future I will also be able to hope blog posts here should I find something I think is interesting enough to write about.
